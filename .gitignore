@@ -26,6 +26,17 @@ MANIFEST
 
 # Lightning /research
 test_tube_exp/
+tests/tests_tt_dir/
+tests/save_dir
+default/
+test_tube_logs/
+test_tube_data/
+model_weights/
+tests/save_dir
+tests/tests_tt_dir/
+processed/
+raw/
+
 # PyInstaller
 #  Usually these files are written by a python script from a template
 #  before PyInstaller builds the exe, so as to inject date/other infos into it.
@@ -35,9 +46,9 @@ pip-log.txt
 pip-delete-this-directory.txt
 # Unit test / coverage reports
 htmlcov/
-<<<<<<< HEAD
+
 .nox/
->>>>>>> apulis/master
+.tox/
 .coverage
 .cache
 nosetests.xml
